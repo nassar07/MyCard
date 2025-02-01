@@ -1,0 +1,79 @@
+body{
+    background-image: url('./backLogin4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Login{
+    background-color: rgba(255, 255, 255, 0.8);
+    position:fixed;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    border: 1px solid #ccc;
+    height: 350px;
+
+}
+#username{
+    background: none;
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #ccc;
+    
+}
+#password{
+    background: none;
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #ccc;
+
+}
+#check{
+    width: 50px;
+    font-size: 16px;
+}
+#forgot{
+    width: 50px;
+    margin: 20px 20px;
+}
+#submit{
+    margin-top: 30px;
+    background: none; 
+    border: 2px solid #007BFF; 
+    color: #007BFF; 
+    padding: 10px 20px;
+    border-radius: 10px; 
+    cursor: pointer;
+    font-size: 16px;
+    width: 250px;
+}
+#submit:hover{
+    background-color: #007BFF;
+    color: white;
+}
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
